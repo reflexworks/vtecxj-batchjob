@@ -1,0 +1,55 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>jp.reflexworks</groupId>
+  <artifactId>vtecx-batchjob</artifactId>
+  <version>9.0.0</version>
+  <packaging>jar</packaging>
+
+  <description>vte.cx BatchJob</description>
+  <name>vte.cx BatchJob</name>
+
+  <organization>
+    <name>Virtual Technology</name>
+    <url>http://www.virtual-tech.net/</url>
+  </organization>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <basedir>.</basedir>
+    <vtecx-redis-version>9.0.0</vtecx-redis-version>
+    <vtecx-bdbclient-version>9.0.0</vtecx-bdbclient-version>
+    <vtecx-js-version>9.0.0</vtecx-js-version>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>jp.reflexworks</groupId>
+      <artifactId>vtecx-redis</artifactId>
+      <version>${vtecx-redis-version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>jp.reflexworks</groupId>
+      <artifactId>vtecx-bdbclient</artifactId>
+      <version>${vtecx-bdbclient-version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>jp.reflexworks</groupId>
+      <artifactId>vtecx-js</artifactId>
+      <version>${vtecx-js-version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.2</version>
+      <scope>test</scope>
+    </dependency>
+
+  </dependencies>
+</project>
