@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>jp.reflexworks</groupId>
-  <artifactId>vtecx-batchjob</artifactId>
+  <artifactId>vtecxj-batchjob</artifactId>
   <version>9.0.0</version>
   <packaging>jar</packaging>
 
@@ -18,9 +18,9 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <basedir>.</basedir>
-    <vtecx-redis-version>9.0.0</vtecx-redis-version>
-    <vtecx-bdbclient-version>9.0.0</vtecx-bdbclient-version>
-    <vtecx-js-version>9.0.0</vtecx-js-version>
+    <vtecxj-redis-version>9.0.0</vtecxj-redis-version>
+    <vtecxj-bdbclient-version>9.0.0</vtecxj-bdbclient-version>
+    <vtecxj-js-version>9.0.0</vtecxj-js-version>
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
   </properties>
@@ -28,20 +28,20 @@
   <dependencies>
     <dependency>
       <groupId>jp.reflexworks</groupId>
-      <artifactId>vtecx-redis</artifactId>
-      <version>${vtecx-redis-version}</version>
+      <artifactId>vtecxj-redis</artifactId>
+      <version>${vtecxj-redis-version}</version>
     </dependency>
 
     <dependency>
       <groupId>jp.reflexworks</groupId>
-      <artifactId>vtecx-bdbclient</artifactId>
-      <version>${vtecx-bdbclient-version}</version>
+      <artifactId>vtecxj-bdbclient</artifactId>
+      <version>${vtecxj-bdbclient-version}</version>
     </dependency>
 
     <dependency>
       <groupId>jp.reflexworks</groupId>
-      <artifactId>vtecx-js</artifactId>
-      <version>${vtecx-js-version}</version>
+      <artifactId>vtecxj-js</artifactId>
+      <version>${vtecxj-js-version}</version>
     </dependency>
 
     <dependency>
